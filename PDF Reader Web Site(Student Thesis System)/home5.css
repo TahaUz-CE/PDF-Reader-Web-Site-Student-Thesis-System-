@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+}
+
+#menu{
+    height: 80px;
+    background-color: rgb(245, 205, 205);
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: rgb(114, 13, 13);
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.icon{
+    margin-right: 7px;
+    font-size: 14px;
+    color: rgb(204, 78, 78);
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #9e452a;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #9e452a;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(102, 68, 4);
+}
+
+#home{
+    background-color: gray;
+    height: 600px;
+    background-image: url(https://images3.alphacoders.com/927/thumb-1920-927227.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#contents{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#aboutUs{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: #003666;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 20px;
+    width: 400px;
+    color: #445c6e;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 1px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 600;
+    float: left;
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#pson{
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+#egitimler{
+    background-color: rgb(245, 205, 205);
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+.card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid white; 
+    padding: 0;
+    display: inline-block;
+
+}
+.baslikcard{
+    font-size: 15px;
+    color:white;
+}
+.cardp{
+    color:white;
+}
+.card:hover{
+   border: 2px solid rgb(122, 59, 59) ;  
+}
+
+#team{
+    background-color: burlywood;
+    padding: 50px;
+    height: 850px;
+    text-align: center;
+}
+
+#teamh3{
+    color: #9e452a;
+}
+
+.colmn-left-right{
+    width: 400px;
+    float: left;
+    padding: 50px;
+}
+
+.oval{
+    border-radius: 50%;
+}
+
+.teamname{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.teamm{
+    color: #8a7676;
+    font-size: 18px;
+}
+
+.social{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.social:hover{
+    background-color: #8a7676;
+}
+
+.colmn{
+    width: 400px;
+    float: left;
+    padding: 10px;
+}
+
+#contact{
+    background: url(https://images5.alphacoders.com/106/thumb-1920-1067875.png);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#h3contact{
+    color: white;
+}
+
+#contactopak{
+    background: rgba(255,255,255,0.3);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#leftform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#rightform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(44, 212, 44);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#address{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+
+#addressheader{
+    font-size: 30px;
+    color: black;
+}
+
+.addressp{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#up{
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 20px;
+}
